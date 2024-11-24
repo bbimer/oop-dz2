@@ -13,15 +13,12 @@ public:
         countryName[0] = '\0';
     }
 
-    Contact(const char* phn, const char* lct, const char* cntr) {
-        setPhoneNumber(phn);
-        setPlace(lct);
-        setCountry(cntr);
-    }
-
     void setPhoneNumber(const char* num);
     void setPlace(const char* place);
     void setCountry(const char* country);
 
     void print() const;
 };
+
+
+

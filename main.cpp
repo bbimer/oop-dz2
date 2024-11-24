@@ -1,5 +1,6 @@
 #include <iostream>
 #include "contact.h"
+#include "college.h"
 
 int main() {
     Contact contact;
@@ -8,6 +9,11 @@ int main() {
     contact.setPlace("Strelkov street 11");
     contact.setCountry("Canada");
     contact.print();
+
+    College col;
+    col.setContact("1(565)676-7264");
+    col.setName("Kaspersky");
+    col.print();
 
     return 0;
 }

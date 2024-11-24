@@ -1,6 +1,5 @@
 #include "contact.h"
 #include <iostream>
-#include <cstring> 
 using namespace std;
 
 void Contact::setPhoneNumber(const char* num) {
@@ -26,6 +25,7 @@ void Contact::setCountry(const char* country) {
         countryName[i] = country[i];
     }
 }
+
 
 void Contact::print() const {
     cout << "Phone number: " << phone << endl;
