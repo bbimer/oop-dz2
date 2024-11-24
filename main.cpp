@@ -1,6 +1,7 @@
 #include <iostream>
 #include "contact.h"
 #include "college.h"
+#include "studen.h"
 
 int main() {
     Contact contact;
@@ -14,6 +15,13 @@ int main() {
     col.setContact("1(565)676-7264");
     col.setName("Kaspersky");
     col.print();
+
+    Student one;
+    one.setPIB("L");
+    one.setDateOfBirth("2004");
+    one.setContact("1(577)567-9874");
+    one.setCollege("Mechnikova");
+    one.print();
 
     return 0;
 }
